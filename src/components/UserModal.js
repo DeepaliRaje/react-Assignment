@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UserModal = ({ user, onClose }) => {
+const UserModal = ({ user, onClose}) => {
   if (!user) return null;
 
   return (
