@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UserModal = ({ user, onClose}) => {
+const UserModal = ({ user, onClose, onClick}) => {
   if (!user) return null;
 
   return (
@@ -21,6 +21,14 @@ const UserModal = ({ user, onClose}) => {
             <p className="text-gray-700">Department: {user.company.department}</p>
             <p className="text-gray-700">Title: {user.company.title}</p>
             <p className="text-gray-700">Address: {user.address.address}, {user.address.city}, {user.address.state}</p>
+
+
+            <button
+              onClick={() => onClick(user)}
+              className="bg-black text-white px-2 py-0.7 rounded hover:bg-gray-500">
+              About
+            </button>
+
           </div>
         </div>
       </div>
