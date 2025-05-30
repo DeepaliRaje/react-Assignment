@@ -23,7 +23,7 @@ function App() {
 
   return (
 
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-50 min-h-screen">
       <Navbar />
       <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {users.map(user => (

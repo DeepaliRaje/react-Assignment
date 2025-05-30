@@ -8,6 +8,9 @@ In the project directory, you can run:
 
 ### `npm start`
 
+This line was added from the React-1 branch.
+
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
